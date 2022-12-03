@@ -1,0 +1,6 @@
+Total : 569
+Class 0 (Benign) : 357
+Class 1 (Malignant) : 212
+
+Majority: Class 0
+Minority: Class 1

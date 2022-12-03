@@ -1,0 +1,33 @@
+Label,Description,Scaling Applied (1: None;   2: Z-Norm;   3: MinMax)
+id,anonymized patient id [REMOVED],REMOVED
+class,"target: M=malignant // B=benign --> Changed to 1=Malignant, 0=Benign",None
+radius_mean,radius (mean of distances from center to points on the perimeter),Z-norm
+texture_mean,texture (standard deviation of gray-scale values) ,Z-norm
+perimeter_mean,perimeter,Z-norm
+area_mean,area ,Z-norm
+smoothness_mean,smoothness (local variation in radius lengths) ,Z-norm
+compactness_mean,compactness (perimeter^2 / area - 1.0) ,Z-norm
+concavity_mean,concavity (severity of concave portions of the contour) ,Z-norm
+concave points_mean,concave points (number of concave portions of the contour),Z-norm
+symmetry_mean,symmetry,Z-norm
+fractal_dimension_mean,"fractal dimension (""coastline approximation"" - 1",Z-norm
+radius_se,standard error for above,Z-norm
+texture_se,standard error for above,Z-norm
+perimeter_se,standard error for above,Z-norm
+area_se,standard error for above,Z-norm
+smoothness_se,standard error for above,Z-norm
+compactness_se,standard error for above,Z-norm
+concavity_se,standard error for above,Z-norm
+concave points_se,standard error for above,Z-norm
+symmetry_se,standard error for above,Z-norm
+fractal_dimension_se,standard error for above,Z-norm
+radius_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+texture_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+perimeter_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+area_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+smoothness_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+compactness_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+concavity_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+concave points_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+symmetry_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
+fractal_dimension_worst,"""worst"" or largest (mean of the three largest values) of these features",Z-norm
